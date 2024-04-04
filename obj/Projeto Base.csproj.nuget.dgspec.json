@@ -60,6 +60,10 @@
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "ncalc": {
+              "target": "Package",
+              "version": "[1.3.8, )"
             }
           },
           "imports": [

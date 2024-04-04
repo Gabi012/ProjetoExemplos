@@ -4,13 +4,14 @@ using System.Net.Http.Json;
 using RestSharp;
 using Newtonsoft.Json.Linq;
 using System.Security.Cryptography;
+using NCalc;
 class Program
 {
     static void Main()
     {
         //ApiTeste.ApiTest();
         //Expando.ExpandoTest();
-
+        /*
         Dictionary<string, double> dicBanco = new Dictionary<string, double>{
             {"Loja 1", 1000.50},
             {"Loja 2", 2500.10},
@@ -23,7 +24,7 @@ class Program
             {"Loja 3", 3000.55},
             {"Loja 4", 500.00}
        };
-        /*
+        
         Dictionary<string, double> dicDiferenca;
         List<string> lstLojas;
 
@@ -36,11 +37,37 @@ class Program
 
         string sqlteste = "select * from view where lojas in ";
         Console.WriteLine(sqlteste + sql);
-        */
+        
         CompararListas();
+        */
 
+        var obj = new { QTD_PRODUTO = 2 };
+
+        // Defina a expressão a ser avaliada
+        string exp = "(3 * QTD_PRODUTO) * 0.6"; // 60% = 0.6
+
+        // Crie um objeto Expression para a expressão
+        Expression e = new Expression(exp);
+
+        // Adicione variáveis ​​à expressão
+        e.Parameters["QTD_PRODUTO"] = obj.QTD_PRODUTO;
+
+        NcalcExp(e);
     }
 
+    public static void NcalcExp(Expression e)
+    {
+        try
+        {
+            // Avalie a expressão
+            object result = e.Evaluate();
+            Console.WriteLine($"Resultado da expressão: {result}");
+        }
+        catch (EvaluationException ex)
+        {
+            Console.WriteLine($"Erro na avaliação da expressão: {ex.Message}");
+        }
+    }
 
     public static void CompararListas()
     {
