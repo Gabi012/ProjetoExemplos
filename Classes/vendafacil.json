@@ -1,0 +1,70 @@
+{
+    "start": 0,
+    "count": 0,
+    "total": 0,
+    "items": [
+      {
+        "id": 0,
+        "idExterno": "string",
+        "lojaId": 0,
+        "dataEmissao": "string",
+        "dataFaturamento": "string",
+        "dataEntrega": "string",
+        "dataPrevisao": "string",
+        "clienteId": 0,
+        "vendedorId": 0,
+        "usuarioId": 0,
+        "pessoaAutorizadaRecebimento": "string",
+        "retiradaNaLoja": true,
+        "cpfNoCupom": true,
+        "observacao": "string",
+        "valorTotal": 0,
+        "valorLiquido": 0,
+        "valorBruto": 0,
+        "status": "ABERTO",
+        "tipoDeFrete": "EMITENTE",
+        "tipoFaturamento": "CUPOM_FISCAL",
+        "totalOutrasDespesas": 0,
+        "despesas": {
+          "valorEntrega": 10,
+          "valorDelivery": 10,
+          "valorRetirada": 10,
+          "valorConveniencia": 10
+        },
+        "enderecoEntrega": {
+          "cep": "string",
+          "uf": "string",
+          "municipio": "string",
+          "logradouro": "string",
+          "numeroEndereco": "string",
+          "bairro": "string",
+          "complemento": "string",
+          "pontoDeReferencia": "string"
+        },
+        "itens": [
+          {
+            "produtoId": 0,
+            "unidade": "string",
+            "descricaoProdutoEcommerce": "string",
+            "quantidadeDeEmbalagem": 0,
+            "quantidadeDeItemEmbalagem": 0,
+            "quantidadeDeEmbalagemAtendida": 0,
+            "valorEmbalagem": 0,
+            "compoeValorTotal": true,
+            "valor": 0,
+            "valorDesconto": 0,
+            "tipoDesconto": "VALOR"
+          }
+        ],
+        "pagamentos": [
+          {
+            "formaPagamentoId": 0,
+            "dataVencimento": "string",
+            "valor": 0,
+            "numeroParcelas": 0,
+            "pago": true
+          }
+        ]
+      }
+    ]
+  }

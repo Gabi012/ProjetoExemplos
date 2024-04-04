@@ -1,0 +1,22 @@
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\Projeto Base.exe
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\Projeto Base.deps.json
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\Projeto Base.runtimeconfig.json
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\Projeto Base.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\Projeto Base.pdb
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\RestSharp.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\System.Net.Http.Json.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.csproj.AssemblyReference.cache
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.AssemblyInfoInputs.cache
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.AssemblyInfo.cs
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.csproj.CoreCompileInputs.cache
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.csproj.CopyComplete
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\refint\Projeto Base.dll
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.pdb
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\Projeto Base.genruntimeconfig.cache
+C:\Users\gabriele.boves\Desktop\Prj Base\obj\Debug\net7.0\ref\Projeto Base.dll
